@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #fff;
+	font-family: "Roboto-Regular", sans-serif !important;
+}
+
+.container {
+	position: relative;
+	max-width: 1170px;
+}
+
+main {
+	paddin-top: 80px;
+}
+
+img {
+	width: 100%;
+}
+
+ul {
+	list-style: none !important;
+}
+
+a {
+	color: #fff !important;
+	outline: none !important;
+}
+
+h2 {
+	display: inline-block;
+	margin: 0 auto;
+	font-family: "Roboto-Regular";
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	border-bottom: 2px solid #000;
+	color: #000;	
+	padding-top: 65px;
+	margin-bottom: 30px;
+}
+
+h3 {
+	font-family: "Akrobat-Bold", sans-serif;
+	font-size: 24px;
+	color: #000;
+	text-align: left;
+}
+
+h3.h3 {
+	font-family: "Roboto-Regular";
+	font-weight: 400 !important;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #000;
+	text-align: left;
+	padding: 7px 30px 7px 15px;
+}
+
+.btn {
+	font-family: "Roboto-Medium"; 
+	font-size: 18px;
+	text-align: center;
+	border: none;
+	padding: 16px 27px;
+	outline: none !important;
+	max-height: 57px
+}
+
+.btn-light {
+	color: #000 !important;
+	background-color: #fff;
+	text-decoration: none !important;
+	cursor: pointer;
+}
+
+.btn-dark {
+	color: #fff;
+	background-color: #000;
+	transition: background-color .5s ease, opacity .5s ease;
+}
+
+.btn-dark:hover {
+	background-color: #000;
+	opacity: .8
+}

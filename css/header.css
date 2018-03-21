@@ -1,0 +1,139 @@
+header {
+  max-height: 80px;
+  background-color: rgba(0,0,0, .85) !important;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+header .container {
+	margin: 0 auto;
+}
+
+.head-wrapp {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.logo-wrapp {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	padding: 15px 0;
+}
+
+nav.navbar {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav.navbar ul.nav-list {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+nav.navbar ul.nav-list li {
+	padding: 0 20px;
+}
+
+nav.navbar ul.nav-list li a {
+	font-family: "Roboto-Light", sans-serif;
+	font-size: 16px;
+	text-decoration: none !important;
+	transition: color .5s ease, opacity .5s ease;
+}
+
+nav.navbar ul.nav-list li a:hover {
+	color: #ccc !important;
+
+}
+
+.navBurger {
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	cursor: pointer;
+	background: #fff;
+	box-sizing: border-box;
+	background-clip: content-box;
+	width: 30px;
+	height: 24px;
+	border-top: 11px solid transparent;
+	border-bottom: 11px solid transparent;
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: all 0.25s ease-in-out;
+	transition: all 0.25s ease-in-out;
+}
+
+.navBurger:before,
+.navBurger:after {
+	content: "";
+	position: absolute;
+	background: #fff;
+	height: 2px;
+	width: 100%;
+	right: 0;
+	will-change: rotate;
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.navBurger:before {
+	top: -10px;
+}
+
+.navBurger:after {
+	bottom: -10px;
+	width: 90%;
+}
+
+.navBurger.active {
+	background: transparent;
+	background-clip: content-box;
+}
+
+.navBurger.active:before {
+	-webkit-transform: rotate(135deg);
+	transform: rotate(135deg);
+	top: 0;
+	background: #eee;
+	width: 110%;
+}
+
+.navBurger.active:after {
+	bottom: 0;
+	-webkit-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+	background: #eee;
+	width: 110%;
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        left: 50px;
+    }
+    100% {
+        opacity: 1;
+        left: 0;
+        transform: rotate(0deg);
+    }
+}

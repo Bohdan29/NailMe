@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Nailme</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/header.css">
+	<link rel="stylesheet" href="css/content.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="libs/bootstrap/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="libs/Magnific-Popup-master/dist/magnific-popup.css">
+	<link rel="stylesheet" href="libs/OwlCarousel2-2.2.1/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/OwlCarousel2-2.2.1/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+	<script src="libs/jquery-3.3.1.js"></script>
+</head>
+<body>
+	<!-- Всплывающая форма "заказать консультацию" -->
+	<div id="form-popup" class="white-popup mfp-hide">
+		<form action="#">
+			<p class="title-form">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</p>
+			<input placeholder="Имя" name="name" type="text">
+			<input placeholder="Телефон" name="phone" type="tel">
+			<textarea placeholder="Комментарий" name="comment" id="" cols="30" rows="4"></textarea>
+			<button type="submit" class="btn btn-light">отправить</button>
+		</form>
+	</div>
+
+  <header>
+  	<div class="container">
+  		<div class="head-wrapp">
+  			<div class="logo-wrapp col-md-3">
+  				<a href="#">
+  					<img width="119" height="50" src="img/logo.png" alt="Nailme">
+  				</a>
+  			</div>
+  			<div class="overlay col-md-9">
+  				<nav class="navbar overlayMenu">
+  					<ul class="nav-list menu">
+  						<li><a class="slideSection" href="#services">Услуги</a></li>
+  						<li><a class="slideSection" href="#special">Специальные предложения</a></li>
+  						<li><a class="slideSection" href="#gallery">Галерея</a></li>
+  						<li><a class="slideSection" href="#contacts">Контакты</a></li>
+  					</ul>
+  				</nav>
+  			</div>
+  		</div>
+  	</div>
+    <div class="navBurger" role="navigation" id="navToggle"></div>
+	</header>
+	<main>
+    <section class="title-section">
+      <div class="container">
+        <div class="row">
+          <div class="title-wrapp col-md-12">
+    		    <h1 class="slogan"><img src="img/main-title.png" alt=""></h1>
+    		    <a href="#form-popup" class="btn btn-light title-button popup-with-form">заказать консультацию</a>
+    		    <a href="#about" class="anchor slideSection"><img src="img/arrow-down.png" alt=""></a>
+          </div>
+        </div>
+      </div>   
+    </section><!-- title-section -->
+		<section id="about" class="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="about-wrapp">
+            <h2>О нашем салоне</h2>
+    				<div class="about-cont">
+    					<div class="descr col-md-5">
+    						<h3>NailMe</h3>
+    						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    							sed do eiusmod tempor incididunt ut labore et 
+    							dolore magna aliqua. Ut enim ad minim veniam, 
+    							quis nostrud exercitation ullamco laboris nisi 
+    							ut aliquip ex ea commodo consequat. Duis aute 
+    							irure dolor in reprehenderit in voluptate velit 
+    							esse cillum dolore eu fugiat nulla pariatur. 
+    							Excepteur sint occaecat cupidatat non proident, 
+    							sunt in culpa qui officia deserunt mollit anim id 
+    							est laborum. Sed ut perspiciatis unde omnis iste 
+    							natus error sit voluptatem accusantium doloremque 
+    							laudantium, totam rem aperiam, eaque ipsa quae 
+    							ab illo inventore veritatis et quasi architecto 
+    							beatae vitae dicta sunt explicabo. Nemo 
+    							enim ipsam voluptatem quia voluptas 
+    							sit aspernatur aut odit</p>
+    					</div>
+    					<div class="present col-md-7">
+                <img src="img/about-img.png" alt="">
+    					</div>
+    				</div>
+          </div>
+        </div>
+      </div>
+		</section><!-- about-section -->
+		<section id="services" class="services-section">
+      <div class="container">
+        <div class="row">
+        	<h2>НАШИ УСЛУГИ</h2>
+          <ul class="services-list">
+						<li class="serv col-md-4">
+
+							<h3 class="h3">МАНИКЮР</h3>
+
+							<ul class="sub-list">
+								<li>Европейский</li>
+								<li>Классический</li>
+								<li>Аппаратный</li>
+								<li>Мужской</li>
+								<li>Детский</li>
+								<li>Придание форм</li>
+							</ul>
+
+							<h3 class="h3">ПЕДИКЮР</h3>
+
+							<ul class="sub-list">
+								<li>Фруктовые кислоты</li>
+								<li>Классический</li>
+								<li>Аппаратный</li>
+								<li>Щелочной</li>
+								<li>Обработка пальчиков</li>
+								<li>Чистка стопы классика</li>
+								<li>Чистка стопы кислотами</li>
+							</ul>
+
+							<h3 class="h3">ПЕДИКЮР</h3>
+
+							<ul class="sub-list">
+								<li>Выравнивание ногтевой пластины</li>
+								<li>Выравнивание на длинных ногтях</li>
+								<li>Покрытие гель-лаком</li>
+								<li>Снятие гель-лака</li>								
+							</ul>
+
+						</li>
+						<li class="serv col-md-4">
+
+							<h3 class="h3">НАРАЩЕВАНИЕ ГЕЛЬ</h3>
+
+							<ul class="sub-list">
+								<li>Гелевое наращивание (длина 1-2)</li>
+								<li>Гелевое наращивание (длина 2-3)</li>
+								<li>Коррекция гель</li>
+								<li>Укрепление ногтей биогелем</li>
+								<li>Снятие гелем</li>
+
+							</ul>
+
+							<h3 class="h3">SPA-ПРОЦЕДУРЫ</h3>
+
+							<ul class="sub-list">
+								<li>Лечение IBX</li>
+								<li>Парфинотерапия</li>
+								<li>Холодная парафинотерапия</li>
+							</ul>
+
+							<h3 class="h3">ДИЗАЙН НОГТЕЙ</h3>
+
+							<ul class="sub-list">
+								<li>Френч</li>
+								<li>Антифренч/лунки</li>
+								<li>Втирка(зеркальный/призма/хром)</li>
+								<li>Втирка(блестки)</li>
+								<li>Втирка(хром)</li>
+								<li>Ленты</li>
+								<li>Сладер дизайн</li>
+								<li>Пленки</li>
+								<li>Камни</li>
+								<li>Аэрограф(все/1 ноготь)</li>
+								<li>Битое стекло</li>
+								<li>Crystalpixie</li>
+								<li>Стемпинг</li>
+								<li>Роспись(1 ноготь)</li>
+							</ul>
+						</li>
+						<li class="serv col-md-4">
+							
+							<h3 class="h3">РЕСНИЦЫ</h3>
+
+							<ul class="sub-list">
+								<li>Ламинирование</li>
+								<li>Окрашивание ресниц RefectoCil</li>
+								<li>Окрашивание ресниц<br>перманентной краской</li>
+							</ul>
+
+							<h3 class="h3">НАРАЩЕВАНИЕ РЕСНИЦ</h3>
+
+							<ul class="sub-list">
+								<li>Классическое наращивание</li>
+								<li>2D эффект</li>
+								<li>3D эффект</li>
+								<li>4D эффект</li>
+								<li>Голливуд</li>
+							</ul>
+
+							<h3 class="h3">УХОД ЗА БРОВЯМИ</h3>
+
+							<ul class="sub-list">
+								<li>Окрашивание бровей RefectoCil</li>
+								<li>Окрашивание бровей Schwarzkopf</li>
+								<li>Окрашивание бровей хной</li>
+								<li>Коррекция бровей</li>
+								<li>Тридинг бровей</li>
+								<li>Тридинг лица</li>
+								<li>Ламинирование бровей</li>
+							</ul>
+
+						</li>
+						<li class="serv col-md-4">
+
+							<h3 class="h3">СТРИЖКИ</h3>
+
+							<ul class="sub-list">
+								<li>Стрижка женская</li>
+								<li>Стрижка деская</li>
+								<li>Стрижка мужская</li>
+								<li>Стрижка кончиков</li>
+								<li>Полировка волос на ровные волосы</li>
+							</ul>
+
+							<h3 class="h3">УХОД ЗА ВОЛОСАМИ</h3>
+
+							<ul class="sub-list">
+								<li>Рекострукция волос Tache</li>
+								<li>Ботокс Tache</li>
+								<li>Рекострукция волос la Biosthetique</li>
+								<li>Кератиновое наполнение волос<br>Brasilian Blowout(эффект 2-3 мес.)</li>
+								<li>Кератиновое выравнивание волос<br>1 грамм</li>
+								<li>Лечение волос огнем+окутывание<br>маслами</li>
+								<li>Мытье головы+маска</li>
+								<li>Укладка(брашинг)</li>
+								<li>Укладка(стайлинг)</li>
+								<li>Вечерняя прическа</li>
+								<li>Плетение косс</li>
+							</ul>
+
+						</li>
+						<li class="serv col-md-4">
+							
+							<h3 class="h3">ОКРАШИВАНИЕ ВОЛОС</h3>
+
+							<ul class="sub-list">
+								<li>Окрашивание корней<br>WELLA Color Touch - безаммиачная</li>
+								<li>Окрашивание корней<br>WELLA Koleston - амиачная</li>
+								<li>Окрашивание корней<br>WELLA Special Blond</li>
+								<li>Окрашивание всей длинны<br>WELLA Color Touch - безаммиачная</li>
+								<li>Окрашивание всей длинны<br>WELLA Koleston - амиачная</li>
+								<li>Окрашивание всей длинны<br>WELLA Special Blond</li>
+								<li>Окрашивание<br>BALAYAGE/SHATUSH Wella</li>
+								<li>Смывка цвета Wella</li>
+							</ul>
+
+							<h3 class="h3">ШУГАРИНГ</h3>
+
+							<ul class="sub-list">
+								<li>Ноги под колено</li>
+								<li>Ноги полностью</li>
+								<li>Руки</li>
+							</ul>
+
+						</li>
+						<li class="serv col-md-4">
+							
+							<h3 class="h3">ШУГАРИНГ</h3>
+
+							<ul class="sub-list">
+								<li>Бикини</li>
+								<li>Глубокий пах</li>
+								<li>Подмышки</li>
+								<li>Верхняя губа</li>
+							</ul>
+
+							<h3 class="h3">ЭПИЛЯЦИЯ НАТУРАЛЬНЫМ ВОСКОМ</h3>
+
+							<ul class="sub-list">
+								<li>Ноги под колено</li>
+								<li>Ноги полностью</li>
+								<li>Руки</li>
+								<li>Бикини</li>
+								<li>Глубокий пах</li>
+								<li>Подмышки</li>
+								<li>Верхняя губа</li>
+							</ul>
+						</li>
+						<li class="serv col-md-4 logo-in-services">
+							<img src="img/logo-in-serv.png" alt="">
+						</li>
+          </ul>
+        </div>
+      </div>
+		</section><!-- services-section -->
+    <section id="gallery" class="gallery-section">
+      <div class="container">
+        <div class="row">
+          <h2>Галерея</h2>
+          <div class="gallery-list popup-gallery">
+            <a href="img/gallery-img.png" rel="alternate"><img src="img/gallery-img.png" alt=""></a>
+            <a href="img/gallery-img.png" rel="alternate"><img src="img/gallery-img.png" alt=""></a>
+            <a href="img/gallery-img.png" rel="alternate"><img src="img/gallery-img.png" alt=""></a>
+            <a href="img/gallery-img.png" rel="alternate"><img src="img/gallery-img.png" alt=""></a>
+            <a href="img/gallery-img.png" rel="alternate"><img src="img/gallery-img.png" alt=""></a>
+            <a href="img/gallery-img.png" rel="alternate"><img src="img/gallery-img.png" alt=""></a>
+          </div>
+          <button class="btn btn-dark">показать еще</button>
+        </div>
+      </div>
+    </section><!-- gallery-section -->
+    <section id="special" class="special-section">
+      <div class="container">
+        <div class="row">
+          <h2>Специальные предложения</h2>
+          <ul class="special-list">
+            <li>
+            	<img src="img/special-img.png" alt="">
+            	<div class="info-block">
+            		<p>СВОБОДНЫЕ МЕСТА</p>
+            		<span>Ресницы (Анжела 20-00)</span>
+            	</div>
+            </li>
+            <li>
+            	<img src="img/special-img.png" alt="">
+            	<div class="info-block">
+            		<p>СВОБОДНЫЕ МЕСТА</p>
+            		<span>Ресницы (Анжела 20-00)</span>
+            	</div>
+            </li>
+            <li>
+            	<img src="img/special-img.png" alt="">
+            	<div class="info-block">
+            		<p>СВОБОДНЫЕ МЕСТА</p>
+            		<span>Ресницы (Анжела 20-00)</span>
+            	</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section><!-- special-section -->
+    <section class="masters-section">
+      <div class="container">
+        <div class="row">
+          <h2>Наши мастера</h2>
+          <div class="slider-master owl-carousel">
+          	<div class="slide-item">
+          		<img src="img/avatar.png" alt="Джон Фрида">
+          		<p class="name-master">Джон Фрида</p>
+          		<p class="info-master">Lorem ipsum dolor sit amet,
+          			consectetur adipisicing elit, 
+          			sed do eiusmod tempor incididunt 
+          			ut labore et dolore magna aliqua. 
+          			Ut enim ad minim veniam, 
+          			quis nostrud exercitation 
+          			ullamco laboris nisi 
+          			ut aliquip ex ea commodo 
+          			consequat. Duis aute irure 
+          			dolor in reprehenderit in 
+          			voluptate velit esse cillum 
+          		</p>
+          	</div>
+          	<div class="slide-item">
+          		<img src="img/avatar.png" alt="Джон Фрида">
+          		<p class="name-master">Джон Фрида</p>
+          		<p class="info-master">Lorem ipsum dolor sit amet,
+          			consectetur adipisicing elit, 
+          			sed do eiusmod tempor incididunt 
+          			ut labore et dolore magna aliqua. 
+          			Ut enim ad minim veniam, 
+          			quis nostrud exercitation 
+          			ullamco laboris nisi 
+          			ut aliquip ex ea commodo 
+          			consequat. Duis aute irure 
+          			dolor in reprehenderit in 
+          			voluptate velit esse cillum 
+          		</p>
+          	</div>
+          	<div class="slide-item">
+          		<img src="img/avatar.png" alt="Джон Фрида">
+          		<p class="name-master">Джон Фрида</p>
+          		<p class="info-master">Lorem ipsum dolor sit amet,
+          			consectetur adipisicing elit, 
+          			sed do eiusmod tempor incididunt 
+          			ut labore et dolore magna aliqua. 
+          			Ut enim ad minim veniam, 
+          			quis nostrud exercitation 
+          			ullamco laboris nisi 
+          			ut aliquip ex ea commodo 
+          			consequat. Duis aute irure 
+          			dolor in reprehenderit in 
+          			voluptate velit esse cillum 
+          		</p>
+          	</div>
+          	<div class="slide-item">
+          		<img src="img/avatar.png" alt="Джон Фрида">
+          		<p class="name-master">Джон Фрида</p>
+          		<p class="info-master">Lorem ipsum dolor sit amet,
+          			consectetur adipisicing elit, 
+          			sed do eiusmod tempor incididunt 
+          			ut labore et dolore magna aliqua. 
+          			Ut enim ad minim veniam, 
+          			quis nostrud exercitation 
+          			ullamco laboris nisi 
+          			ut aliquip ex ea commodo 
+          			consequat. Duis aute irure 
+          			dolor in reprehenderit in 
+          			voluptate velit esse cillum 
+          		</p>
+          	</div>
+          	<div class="slide-item">
+          		<img src="img/avatar.png" alt="Джон Фрида">
+          		<p class="name-master">Джон Фрида</p>
+          		<p class="info-master">Lorem ipsum dolor sit amet,
+          			consectetur adipisicing elit, 
+          			sed do eiusmod tempor incididunt 
+          			ut labore et dolore magna aliqua. 
+          			Ut enim ad minim veniam, 
+          			quis nostrud exercitation 
+          			ullamco laboris nisi 
+          			ut aliquip ex ea commodo 
+          			consequat. Duis aute irure 
+          			dolor in reprehenderit in 
+          			voluptate velit esse cillum 
+          		</p>
+          	</div>
+          	<div class="slide-item">
+          		<img src="img/avatar.png" alt="Джон Фрида">
+          		<p class="name-master">Джон Фрида</p>
+          		<p class="info-master">Lorem ipsum dolor sit amet,
+          			consectetur adipisicing elit, 
+          			sed do eiusmod tempor incididunt 
+          			ut labore et dolore magna aliqua. 
+          			Ut enim ad minim veniam, 
+          			quis nostrud exercitation 
+          			ullamco laboris nisi 
+          			ut aliquip ex ea commodo 
+          			consequat. Duis aute irure 
+          			dolor in reprehenderit in 
+          			voluptate velit esse cillum 
+          		</p>
+          	</div>
+          	<div class="slide-item">
+          		<img src="img/avatar.png" alt="Джон Фрида">
+          		<p class="name-master">Джон Фрида</p>
+          		<p class="info-master">Lorem ipsum dolor sit amet,
+          			consectetur adipisicing elit, 
+          			sed do eiusmod tempor incididunt 
+          			ut labore et dolore magna aliqua. 
+          			Ut enim ad minim veniam, 
+          			quis nostrud exercitation 
+          			ullamco laboris nisi 
+          			ut aliquip ex ea commodo 
+          			consequat. Duis aute irure 
+          			dolor in reprehenderit in 
+          			voluptate velit esse cillum 
+          		</p>
+          	</div>
+          	<div class="slide-item">
+          		<img src="img/avatar.png" alt="Джон Фрида">
+          		<p class="name-master">Джон Фрида</p>
+          		<p class="info-master">Lorem ipsum dolor sit amet,
+          			consectetur adipisicing elit, 
+          			sed do eiusmod tempor incididunt 
+          			ut labore et dolore magna aliqua. 
+          			Ut enim ad minim veniam, 
+          			quis nostrud exercitation 
+          			ullamco laboris nisi 
+          			ut aliquip ex ea commodo 
+          			consequat. Duis aute irure 
+          			dolor in reprehenderit in 
+          			voluptate velit esse cillum 
+          		</p>
+          	</div>
+          	</div>
+          </div>
+        </div>
+      </div>
+    </section><!-- masters-section -->
+    <section id="contacts" class="contacts-section">
+      <div class="container">
+        <div class="row">
+          <h2>Наши контакты</h2>
+          <div class="wrapp-map">         	
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1282.1353987926996!2d36.23408986884891!3d50.00627941468155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a0de36bfec95%3A0xecb70952f11f1d02!2z0L_RgNC-0YHQv9C10LrRgiDQndC10LfQsNCy0LjRgdC40LzQvtGB0YLQuCwgMTAsINCl0LDRgNGM0LrQvtCyLCDQpdCw0YDRjNC60L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA2MTAwMA!5e0!3m2!1sru!2sua!4v1520912051389" height="360" frameborder="0" style="border:1px solid #000;width:100%;" allowfullscreen></iframe>
+          </div>
+          <div class="info-form">
+          	<div class="soc-block">
+          		<ul class="soc-list">
+          			<li><address>г. Харьков, пр. Правды 10</address></li>
+          			<li><a class="inst" href="#">nailme_kharkov</a></li>
+          			<li><a class="fb" href="#">vk.com/nailme_kh</a></li>
+          			<li><a class="tel" href="tel:+380633613613">+38 (063) 3 613 613</a></li>
+          		</ul>
+          	</div>
+          	<div class="form-block">
+          		<form action="#">
+          			<p class="title-form">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</p>
+          			<input placeholder="Имя" name="name" type="text">
+								<input placeholder="Телефон" name="phone" type="tel">
+								<textarea placeholder="Комментарий" name="comment" id="" cols="30" rows="4"></textarea>
+								<button type="submit" class="btn btn-light">отправить</button>
+          		</form>
+          	</div>
+          </div>
+        </div>
+      </div>
+    </section><!-- contacts-section -->
+	</main>
+	<footer>
+		<div class="container">
+			<div class="logo-footer-wrapp">
+				<img src="img/logo-footer.png" alt="">
+			</div>
+		</div>
+	</footer>
+	
+  <script src="libs/Magnific-Popup-master/dist/jquery.magnific-popup.js"></script>
+  <script src="libs/OwlCarousel2-2.2.1/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+	<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>

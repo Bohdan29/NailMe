@@ -1,0 +1,26 @@
+footer {
+	background-color: #fff;
+}
+
+footer .logo-footer-wrapp {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+
+footer .logo-footer-wrapp img {
+	width: 226px;
+	height: 119px;
+}
